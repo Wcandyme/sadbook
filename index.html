@@ -1,15 +1,7 @@
 ---
-title: Sadbook Indie Webcomic Webring
+title: The Sadbook Collections
 layout: html
 ---
-<h1>Sadbook Indie Webcomic Webring</h1>
-<p>This webring is for anyone who publishes an indie webcomic or comic strip online.<br>
-Here's how to join it: <a href="{{'/join'|relative_url}}">join the webring</a> 
+<h1><a href="https://sadbookcollections.com/">The Sadbook Collections</a> didn't need a static site but it's got one anyway</h1>
+<p></br>
 
-<p>If the ring is broken, please <a href={{site.github_repo_url}}/issues/new>submit an error report on GitHub</a>.
-
-<h2 id=members>Members ({{site.data.members.size}})</h2>
-<ul>
-{% for member in site.data.members %}
-<li><a href="{{member.url | xml_escape}}">{{member.name | xml_escape | newline_to_br}}</a>{% endfor %}
-</ul>
